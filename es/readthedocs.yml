@@ -3,6 +3,9 @@ build:
   image: último
 mkdocs:
   fail_on_warning: falso
+  configuration: mkdocs.yml
 python:
   install:
   - requirements: requisitos.txt
+  version: 3.7
+version: 2
