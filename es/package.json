@@ -1,5 +1,39 @@
 {
   "author": "Fundación Web3",
   "description": "Guía de usuario de la red Kusama.",
-  "name": "kusama-guía de usuario"
+  "name": "kusama-guía de usuario",
+  "bugs": {
+    "url": "https://github.com/kusamanetwork/userguide/issues"
+  },
+  "dependencies": {
+    "markdown-spellcheck": "^1.3.1"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://github.com/kusamanetwork/userguide#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "./scripts/spell.sh"
+    }
+  },
+  "keywords": [
+    "kusama",
+    "wiki"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kusamanetwork/userguide.git"
+  },
+  "scripts": {
+    "spellcheck": "mdspell --en-us --ignore-numbers --ignore-acronyms --no-suggestions --report 'docs/polkadot/**/*.md' 'docs/*.md'",
+    "spellcheck:interactive": "mdspell --en-us --ignore-numbers --ignore-acronyms 'docs/polkadot/**/*.md' 'docs/*.md'",
+    "spellcheck:report": "mdspell --en-us --ignore-numbers --ignore-acronyms --no-suggestions --report 'docs/polkadot/**/*.md' 'docs/*.md'"
+  },
+  "version": "1.0.0"
 }
