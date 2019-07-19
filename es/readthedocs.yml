@@ -1,0 +1,8 @@
+---
+build:
+  image: último
+mkdocs:
+  fail_on_warning: falso
+python:
+  install:
+  - requirements: requisitos.txt
