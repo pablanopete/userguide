@@ -11,20 +11,33 @@ extra:
     type: github
   - link: https://twitter.com/kusamanetwork
     size: lg
+    type: twitter
   - link: https://medium.com/@polkadotnetwork
     size: lg
+    type: medium
 markdown_extensions:
-- 
-- 
-- 
+- admonition
+- codehilite:
+    guess_lang: false
+- toc:
+    permalink: true
 - mdtooltips
 nav:
 - Home: index.md
-- 
-- 
-- 
+- Get Started:
+  - Claim KSMAs: start/claims.md
+  - Dot Holders: start/dot-holders.md
+  - Faucet: " start/faucet.md "
+- What to Try:
+  - Governance: " try/governance.md "
+  - Staking: try/staking.md
+  - Validate: prueba/validate.md
+  - Parachain: prueba/parachain.md
+- What to Break:
+  - Bug Bounty: break/bug-bounty.md
+  - Adversarial Cheatsheet: break/adversary.md
 - Community: community.md
-- 
+- Code of Conduct: " code-of-conduct.md "
 - FAQ: faq.md
 repo_url: https://github.com/kusamanetwork/userguide
 site_author: Fundación Web3
@@ -37,3 +50,13 @@ theme:
     text: PT Sans
   language: en
   logo: img / Kusama_symbol_color.png
+  custom_dir: mkdocs-material/material
+  favicon: img/favicon.ico
+  feature:
+    tabs: false
+  palette:
+    accent: pink
+    primary: 'grey '
+footer:
+  logo: img/Kusama-white-logo.png
+repo_name: kusamanetwork/userguide
