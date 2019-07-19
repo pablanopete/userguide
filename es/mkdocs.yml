@@ -1,0 +1,39 @@
+---
+extra_css:
+- hojas de estilo / extra.css
+extra_javascript:
+- https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+- https://research.web3.foundation/en/latest/mathjax-config.js
+extra:
+  social:
+  - link: https://github.com/paritytech/polkadot
+    size: lg
+    type: github
+  - link: https://twitter.com/kusamanetwork
+    size: lg
+  - link: https://medium.com/@polkadotnetwork
+    size: lg
+markdown_extensions:
+- 
+- 
+- 
+- mdtooltips
+nav:
+- Home: index.md
+- 
+- 
+- 
+- Community: community.md
+- 
+- FAQ: faq.md
+repo_url: https://github.com/kusamanetwork/userguide
+site_author: Fundación Web3
+site_description: La base de conocimiento de Kusama.
+site_name: Guía de usuario de Kusama
+site_url: https://guide.kusama.network
+theme:
+  font:
+    code: Ubuntu Mono
+    text: PT Sans
+  language: en
+  logo: img / Kusama_symbol_color.png
