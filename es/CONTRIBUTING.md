@@ -1,6 +1,7 @@
 # Contribuyendo
 
-## This [wiki](https://github.com/w3f/Polkadot-wiki) is an **OPEN-ish Open Source Project**
+## Este [wiki](https://github.com/w3f/Polkadot-wiki) es un ** proyecto de código abierto OPEN-ish**
+
 
 Este es un recurso informativo sobre Polkadot y el ecosistema de Polkadot.
 
@@ -12,9 +13,9 @@ Este es un recurso informativo sobre Polkadot y el ecosistema de Polkadot.
 
 Si tiene sugerencias únicamente para una página específica, le recomendamos que presente una solicitud de extracción.
 
-1. Click on the "Pencil" icon on the page you wish to edit.
+1. Haga clic en el icono "Pencil" en la página que desea editar.
 2. Si no ha iniciado sesión en GitHub, se le solicitará que inicie sesión. Ingrese su nombre de usuario y contraseña y proporcione la autenticación adicional necesaria.
-3. You may edit the file using standard [GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/) for formatting.  It is recommended that you click "Preview Changes" before submitting the issue to ensure that you did not unintentionally break the formatting of the page.
+3. Puede editar el archivo usando el formato estándar [GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/)  para el formato. Se recomienda que haga clic en "Vista previa de cambios" antes de enviar el problema para asegurarse de que no rompió involuntariamente el formato de la página.
 4. Cuando esté satisfecho con los cambios que ha realizado, desplácese hasta la parte inferior de la página. Debería haber dos cuadros de texto bajo la etiqueta "Confirmar cambios".
 5. En el cuadro de texto superior, proporcione un resumen sucinto del cambio realizado.
 6. Si es necesario, agregue una descripción más larga y detallada en el segundo cuadro. Esto no es necesario para cambios extremadamente pequeños (por ejemplo, `Fix typo 'teh' -> 'the'` ), pero en general, es mejor dar más información que menos. Explique cuál fue el problema y cómo su cambio mejora la página.
@@ -25,7 +26,7 @@ Si tiene sugerencias únicamente para una página específica, le recomendamos q
 
 ## Sugerir cambios más grandes
 
-While fixing a typo or updating some wording on a page may lend itself to a pull request, there may be broad issues in wording across the wiki, a request for additional content, or simply a question that you don't know the answer to but think should be included.  In such cases, filing an issue may be the better option.  Filing an issue allows you to state that there is a problem without also providing a fix to it.
+Si bien corregir un error tipográfico o actualizar algunas palabras en una página puede prestarse a una solicitud de extracción, puede haber problemas generales en la redacción de la wiki, una solicitud de contenido adicional o simplemente una pregunta para la que no sabe la respuesta, pero creo que se debe incluir. En tales casos, la presentación de un problema puede ser la mejor opción. La presentación de un problema le permite indicar que existe un problema sin proporcionarle una solución.
 
 1. En la esquina superior derecha de cualquier página de la wiki, seleccione el enlace GitHub (debería verse como `w3f/polkadot-wiki` ).
 2. Cerca de la parte superior de la página, haga clic en la pestaña Problemas.
@@ -42,13 +43,13 @@ Hay algunas reglas básicas básicas para los contribuyentes:
 1. **No `--force`** o modificar el historial de Git de ninguna manera.
 2. Las solicitudes de extracción se prefieren a los problemas, especialmente para pequeños cambios, como los errores tipográficos. Los problemas deben usarse para cambios genéricos o de amplia base o para contenido faltante.
 3. **Las ramas no maestras** deben ser utilizadas para el trabajo en curso.
-4. **Significant modifications** ought to be subject to an **pull request** to solicit feedback from other contributors.
+4. **Las modificaciones significativas** deben estar sujetas a una **solicitud de extracción** para solicitar comentarios de otros colaboradores.
 5. Las solicitudes de extracción para solicitar comentarios se *recomiendan* para cualquier otra contribución no trivial, pero se deja a la discreción del contribuyente.
 6. Los colaboradores deben intentar adherirse al estilo, el idioma y el diseño de Markdown prevalecientes.
 7. La gramática correcta debe ser utilizada en todo momento. Las solicitudes de extracción con errores tipográficos no se fusionarán hasta que se solucionen.
 8. Se debe tener cuidado de permanecer lo más objetivo e informativo posible. No debe haber editorialización, y el sesgo externo no debe estar presente.
 
-## Changes to this arrangement
+## Cambios a este arreglo
 
 Este documento también puede estar sujeto a solicitudes de extracción o cambios por parte de los contribuyentes cuando crea que tiene algo valioso que agregar o cambiar.
 
