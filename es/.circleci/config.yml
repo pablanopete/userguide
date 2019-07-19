@@ -25,3 +25,16 @@ jobs:
           ", "%20")/g' /usr/local/lib/python3.6/site-packages/pylinkvalidator/urlutil.py
           pylinkvalidate.py --parser=html5lib -P http://localhost:8000
         name: " check links "
+version: 2
+workflows:
+  build_and_tests:
+    jobs:
+    - tests:
+        filters:
+          tags:
+            only: "/.*/"
+    - spellCheck:
+        filters:
+          tags:
+            only: "/.*/"
+  version: 2
