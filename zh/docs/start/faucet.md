@@ -4,4 +4,4 @@
 
 水龙头的详细使用方法会在近期公布。
 
-In the meantime, if you need a larger KSM amount, you can request for KSM by applying [here](https://docs.google.com/forms/d/1-JxlJqt8DA0E3K0QX0Gc20rF02-aqDn6r_rzkB4LaMk/edit).
+与此同时，如果您需要更大量的KSM，您可以通过[此处](https://docs.google.com/forms/d/1-JxlJqt8DA0E3K0QX0Gc20rF02-aqDn6r_rzkB4LaMk/edit)申请KSM。
