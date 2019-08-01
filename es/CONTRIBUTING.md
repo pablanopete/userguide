@@ -11,7 +11,7 @@ Este es un recurso informativo sobre Polkadot y el ecosistema de Polkadot.
 
 ## Sugerir cambios a una página
 
-Si tiene sugerencias únicamente para una página específica, le recomendamos que presente una solicitud de extracción.
+Si tiene sugerencias únicamente para una página específica, le recomendamos que presente una Pull Request.
 
 1. Haga clic en el icono "Pencil" en la página que desea editar.
 2. Si no ha iniciado sesión en GitHub, se le solicitará que inicie sesión. Ingrese su nombre de usuario y contraseña y proporcione la autenticación adicional necesaria.
@@ -19,14 +19,14 @@ Si tiene sugerencias únicamente para una página específica, le recomendamos q
 4. Cuando esté satisfecho con los cambios que ha realizado, desplácese hasta la parte inferior de la página. Debería haber dos cuadros de texto bajo la etiqueta "Confirmar cambios".
 5. En el cuadro de texto superior, proporcione un resumen sucinto del cambio realizado.
 6. Si es necesario, agregue una descripción más larga y detallada en el segundo cuadro. Esto no es necesario para cambios extremadamente pequeños (por ejemplo, `Fix typo 'teh' -> 'the'` ), pero en general, es mejor dar más información que menos. Explique cuál fue el problema y cómo su cambio mejora la página.
-7. Seleccione el botón de opción "Crear una nueva rama para este compromiso e iniciar una solicitud de extracción". Esto generará un nombre de rama predeterminado para usted, como `laboon-patch-1` . Simplemente puede mantener el nombre de rama predeterminado.
+7. Seleccione el botón de opción "Crear una nueva rama para este compromiso e iniciar una Pull Request". Esto generará un nombre de rama predeterminado para usted, como `laboon-patch-1` . Simplemente puede mantener el nombre de rama predeterminado.
 8. Haga clic en el botón verde "Proponer cambio de archivo".
-9. Se cargará una nueva página con su descripción. Haga clic en el botón verde "Crear solicitud de extracción".
-10. ¡Eso es! Su solicitud de extracción ahora estará disponible para que la revise el equipo de W3F.
+9. Se cargará una nueva página con su descripción. Haga clic en el botón verde "Crear Pull Request".
+10. ¡Eso es! Su Pull Request ahora estará disponible para que la revise el equipo de W3F.
 
 ## Sugerir cambios más grandes
 
-Si bien corregir un error tipográfico o actualizar algunas palabras en una página puede prestarse a una solicitud de extracción, puede haber problemas generales en la redacción de la wiki, una solicitud de contenido adicional o simplemente una pregunta para la que no sabe la respuesta, pero creo que se debe incluir. En tales casos, la presentación de un problema puede ser la mejor opción. La presentación de un problema le permite indicar que existe un problema sin proporcionarle una solución.
+Si bien corregir un error tipográfico o actualizar algunas palabras en una página puede prestarse a una Pull Request, puede haber problemas generales en la redacción de la wiki, una solicitud de contenido adicional o simplemente una pregunta para la que no sabe la respuesta, pero creo que se debe incluir. En tales casos, la presentación de un problema puede ser la mejor opción. La presentación de un problema le permite indicar que existe un problema sin proporcionarle una solución.
 
 1. En la esquina superior derecha de cualquier página de la wiki, seleccione el enlace GitHub (debería verse como `w3f/polkadot-wiki` ).
 2. Cerca de la parte superior de la página, haga clic en la pestaña Problemas.
@@ -43,7 +43,7 @@ Hay algunas reglas básicas básicas para los contribuyentes:
 1. **No `--force`** o modificar el historial de Git de ninguna manera.
 2. Las solicitudes de extracción se prefieren a los problemas, especialmente para pequeños cambios, como los errores tipográficos. Los problemas deben usarse para cambios genéricos o de amplia base o para contenido faltante.
 3. **Las ramas no maestras** deben ser utilizadas para el trabajo en curso.
-4. **Las modificaciones significativas** deben estar sujetas a una **solicitud de extracción** para solicitar comentarios de otros colaboradores.
+4. **Las modificaciones significativas** deben estar sujetas a una **Pull Request** para solicitar comentarios de otros colaboradores.
 5. Las solicitudes de extracción para solicitar comentarios se *recomiendan* para cualquier otra contribución no trivial, pero se deja a la discreción del contribuyente.
 6. Los colaboradores deben intentar adherirse al estilo, el idioma y el diseño de Markdown prevalecientes.
 7. La gramática correcta debe ser utilizada en todo momento. Las solicitudes de extracción con errores tipográficos no se fusionarán hasta que se solucionen.
