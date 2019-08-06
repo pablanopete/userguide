@@ -24,7 +24,7 @@
 
 **注意**: 如果你生成地址使用的是`subkey` ，那你应该已经获取了你的公钥。
 
-Go to the MyCrypto application and click on "Interact with Contracts" under the Tools tab. Choose the Custom selection for the contract and copy the address and ABI of the Claims contract. The mainnet Claims contract address is `0x9a1B58399EdEBd0606420045fEa0347c24fB86c2`. Click `Access`.
+转到MyCrypto应用程序，然后单击“工具”选项卡下的“与合约交互”。 选择合约的自定义选项并复制申领合约的地址和ABI。 主网申领合约地址是` 0x9a1B58399EdEBd0606420045fEa0347c24fB86c2 `。点击`访问`。
 
 从下拉菜单中选择`claim`函数并输入你想要用来领取KSM的那个拥有DOT分配额度的以太坊地址。一般来说这个地址应该是你准备用来发起交易的地址。例外是当你使用修订（amendment）密钥的情况。（如果这对你来说很陌生也不用担心）。
 
@@ -36,17 +36,17 @@ Go to the MyCrypto application and click on "Interact with Contracts" under the 
 
 你可以点击链接以在Etherscan上查看你的交易。当交易被打包入块之后你就完成了你的KSM领取流程！当Kusama网络启动之后你就在自己的Kusama地址中拥有了KSM。
 
-### Claiming your KSM with a web3 enabled wallet (ie, metamask)
+### 使用支持web3的钱包（即metamask）申领您的KSM
 
-**This section links out to an external third-party app. Please exercise caution if you choose to use a third-party app to make your claim!**
+**此部分会链接到外部第三方应用程序。如果您选择使用第三方应用程序进行申领，请谨慎行事！**
 
-If you have access to a web3 enabled wallet, you can use [this app](http://m.maiziqianbao.net/eth/mapping), created by community members, to claim your KSM.
+如果您可以访问支持web3的钱包，则可以使用由社区成员创建的[此应用](http://m.maiziqianbao.net/eth/mapping)来申领您的KSM。
 
 After inputting your Kusama address under "Mapping Account", click the "Map" button.
 
-**NOTE**: Before signing the transaction in your wallet, ensure that the destination is the mainnet claims contract, `0x9a1B58399EdEBd0606420045fEa0347c24fB86c2`, and that the transaction data includes your eth wallet address, and the hex-encoded public key (which you can verify using the claims dapp). **Please exercise caution if you choose to use a third-party app to make your claim!**
+**注意**：在您的钱包中签署交易之前，请确保接收方是主网申领合约` 0x9a1B58399EdEBd0606420045fEa0347c24fB86c2 `，并且交易数据包含您的eth钱包地址和十六进制编码的公钥（您可以使用申领dapp进行验证）。 **如果您选择使用第三方应用程序提出索赔，请务必谨慎！**
 
-After signing the transaction and broadcasting it, once the transaction is mined, you are finished! When the Kusama network starts you will already have the balance of KSM in your Kusama address.
+签署交易并进行广播后，一旦交易被写入区块，您就完成了！当Kusama网络启动时，您将在Kusama地址中获得KSM的余额。
 
 ## 在Kusama创世之后领取
 
