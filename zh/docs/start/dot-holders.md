@@ -42,7 +42,7 @@
 
 如果您可以访问支持web3的钱包，则可以使用由社区成员创建的[此应用](http://m.maiziqianbao.net/eth/mapping)来申领您的KSM。
 
-After inputting your Kusama address under "Mapping Account", click the "Map" button.
+在“映射帐户”下输入您的Kusama地址后，单击“映射”按钮。
 
 **注意**：在您的钱包中签署交易之前，请确保接收方是主网申领合约` 0x9a1B58399EdEBd0606420045fEa0347c24fB86c2 `，并且交易数据包含您的eth钱包地址和十六进制编码的公钥（您可以使用申领dapp进行验证）。 **如果您选择使用第三方应用程序提出索赔，请务必谨慎！**
 
